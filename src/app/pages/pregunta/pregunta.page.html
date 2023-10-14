@@ -1,0 +1,17 @@
+
+
+<ion-content>
+  <ion-card>
+    
+  
+    <ion-card-content class="ion-text-center">
+      <ion-img src="assets/img/Logo_DuocUC.svg.png"></ion-img>
+      <ion-card-subtitle>{{ usuario?.preguntaSecreta }}</ion-card-subtitle>
+      <ion-input type="text" [(ngModel)]="respuesta" placeholder="Ingresa la respuesta"></ion-input>
+      <ion-button  (click)="validarRespuestaSecreta()">Recuperar contraseña</ion-button>
+      <ion-button (click)="irALogin()">Iniciar sesión</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
